@@ -1,0 +1,135 @@
+<!doctype html>
+<html lang="en" data-bs-theme="dark">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+</head>
+
+<body>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous">
+    </script>
+
+    <!-- Main container -->
+    <div class="container">
+
+        <!-- Pills menu -->
+        <ul class="nav nav-pills nav-fill mb-3" id="pills-tab" role="tablist">
+
+            <!-- C++ pill -->
+            <li class="nav-item" role="presentation">
+                <button class="nav-link active" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-cpp"
+                    type="button" role="tab" aria-controls="pills-home" aria-selected="true">
+                    C++
+                </button>
+            </li>
+
+            <!-- Unreal engine pill -->
+            <li class="nav-item" role="presentation">
+                <button class="nav-link" id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-ue"
+                    type="button" role="tab" aria-controls="pills-profile" aria-selected="false">
+                    Unreal Engine
+                </button>
+            </li>
+
+            <!-- Publications pill -->
+            <li class="nav-item" role="presentation">
+                <button class="nav-link" id="pills-contact-tab" data-bs-toggle="pill" data-bs-target="#pills-pub"
+                    type="button" role="tab" aria-controls="pills-contact" aria-selected="false">
+                    Публикации
+                </button>
+            </li>
+        </ul>
+
+        <div class="tab-content" id="pills-tabContent">
+
+            <!-- C++ pill -->
+            <div class="tab-pane fade show active" id="pills-cpp" role="tabpanel" aria-labelledby="pills-home-tab">
+
+                <!-- C++ cards table -->
+                <div class="row row-cols-1 row-cols-md-2 g-4">
+            
+                    <!-- First C++ card -->
+                    <div class="col">
+                      <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">Easy Network</h5>
+                            <p class="card-text">Кроссплатформенная сетевая библиотека.</p>
+                            <button type="button" class="btn btn-primary" onclick="location.href='https://github.com/mrognor/Easy_Network'">
+                                <i class="bi bi-github"></i> Исходный код
+                            </button>
+                        </div>
+                      </div>
+                    </div>
+
+                    <!-- Second C++ card -->
+                    <div class="col">
+                      <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">MVault</h5>
+                            <p class="card-text">Быстрая многопоточная библиотека для хранения данных в реальном времени.</p>
+                            <button type="button" class="btn btn-primary" onclick="location.href='https://github.com/mrognor/MVault'">
+                                <i class="bi bi-github"></i> Исходный код
+                            </button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+            </div>
+
+            <!-- Unreal Engine cards table -->
+            <div class="tab-pane fade" id="pills-ue" role="tabpanel" aria-labelledby="pills-profile-tab">
+            
+                <div class="row row-cols-1 row-cols-md-2 g-4">
+            
+                    <!-- First UE card -->
+                    <div class="col">
+                      <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">The Infected</h5>
+                            <p class="card-text">Демонстрационный проект.</p>
+                            <button type="button" class="btn btn-primary" onclick="location.href='https://gitlab.com/mrognor/the-infected'">
+                                <i class="bi bi-gitlab"></i> Исходный код
+                            </button>
+                            <button type="button" class="btn btn-danger" onclick="location.href='https://youtu.be/HLkQ7EcbbHQ?si=hSCCxg2W_8cQq5Cd'">
+                                <i class="bi bi-youtube"></i> Видео-демонстрация
+                            </button>
+                        </div>
+                      </div>
+                    </div>
+
+                    <!-- Second UE card -->
+                    <div class="col">
+                      <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">MVault</h5>
+                            <p class="card-text">Быстрая многопоточная библиотека для хранения данных в реальном времени.</p>
+                            <button type="button" class="btn btn-primary" onclick="location.href='https://github.com/mrognor/MVault'">
+                                <i class="bi bi-github"></i> Исходный код
+                            </button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+            </div>
+
+            <!-- Tab 3 -->
+            <div class="tab-pane fade" id="pills-pub" role="tabpanel" aria-labelledby="pills-contact-tab">
+                
+            </div>
+        </div>
+
+    </div>
+
+</body>
+
+</html>
