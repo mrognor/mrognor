@@ -161,6 +161,7 @@
 
         <br>
 
+        <h1> Надо сказать что это далеко не полный список моего кода, а только самые важные </h1>
         <!-- Project section -->
         <div class="card">
             <div class="card-body">
@@ -198,34 +199,89 @@
                     <!-- C++ pill -->
                     <div class="tab-pane fade show active" id="pills-cpp" role="tabpanel" aria-labelledby="pills-home-tab">
 
-                        <!-- C++ cards table -->
-                        <div class="row row-cols-1 row-cols-md-2 g-4">
-                    
-                            <!-- First C++ card -->
-                            <div class="col">
-                            <div class="card">
-                                <div class="card-body">
-                                    <h5 class="card-title">Easy Network</h5>
-                                    <p class="card-text">Кроссплатформенная сетевая библиотека.</p>
-                                    <button type="button" class="btn btn-primary" onclick="location.href='https://github.com/mrognor/Easy_Network'">
-                                        <i class="bi bi-github"></i> Исходный код
-                                    </button>
-                                </div>
-                            </div>
-                            </div>
+                        <!-- C++ timeline -->
+                        <div class="card-body">
+                            <section style="background-color: #212529;">
+                                <div class="container py-5">
+                                    <div class="main-timeline">
+                                        <div class="timeline left">
+                                            <div class="card">
+                                                <div class="card-body p-4">
+                                                    <h3> Зима 2022</h3>
+                                                    <h4> EasyNetwork </h4>
+                                                    <p class="card-text"> В начале года мною была начата разработка сетевой библиотеки. </p>
+                                                    <button type="button" class="btn btn-primary" onclick="location.href='https://github.com/mrognor/Easy_Network'">
+                                                        <i class="bi bi-github"></i> Исходный код
+                                                    </button>
+                                                </div>
+                                            </div>
+                                        </div>
+            
+                                        <div class="timeline right">
+                                            <div class="card">
+                                                <div class="card-body p-4">
+                                                    <h3>Весна 2023</h3>
+                                                    <h4> ReadWriteMutex </h4>
+                                                    <p class="card-text">
+                                                    Крайне важный проект, предоставляющий класс для умной блокировка потоков.
+                                                    Данный класс позволяет блокировать секции кода на чтение и на запись.
+                                                    Данный проект использовался во всех последующих проектах, в которых использовался многопоток.
+                                                    В последствии проект был обновлен и в него был добавлен рекурсивный ReadWriteMutex. </p>
+                                                    <button type="button" class="btn btn-primary" onclick="location.href='https://github.com/mrognor/ReadWriteMutex'">
+                                                        <i class="bi bi-github"></i> Исходный код
+                                                    </button>
+                                                </div>
+                                            </div>
+                                        </div>
 
-                            <!-- Second C++ card -->
-                            <div class="col">
-                            <div class="card">
-                                <div class="card-body">
-                                    <h5 class="card-title">MVault</h5>
-                                    <p class="card-text">Быстрая многопоточная библиотека для хранения данных в реальном времени.</p>
-                                    <button type="button" class="btn btn-primary" onclick="location.href='https://github.com/mrognor/MVault'">
-                                        <i class="bi bi-github"></i> Исходный код
-                                    </button>
+                                        <div class="timeline left">
+                                            <div class="card">
+                                                <div class="card-body p-4">
+                                                    <h3> Лето 2023</h3>
+                                                    <h4> Кодовое название проекта: AuthServer </h4>
+                                                    <p class="card-text"> Этот проект я делал на работе, поэтому я не могу предоставить исходный код.
+                                                    В рамках этого проекта я реализовал 2 алгоритма шифрования: RSA и AES.
+                                                    На базе кода моей библиотеки и этих алгоритмов мною была создана система безопасного обмена информацией.
+                                                    </p>
+
+                                                    <div class="row">
+                                                        <div class="col">
+                                                            <button type="button" class="btn btn-primary" onclick="location.href='https://github.com/mrognor/RSA'">
+                                                                <i class="bi bi-github"></i> Исходный код RSA
+                                                            </button>
+                                                        </div>
+                                                        
+                                                        <div class="col text-center">
+                                                            <button type="button" class="btn btn-primary" onclick="location.href='https://github.com/mrognor/AES'">
+                                                                <i class="bi bi-github"></i> Исходный код AES
+                                                            </button>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="timeline right">
+                                            <div class="card">
+                                                <div class="card-body p-4">
+                                                    <h3> Зима 2023</h3>
+                                                    <h4> MVault </h4>
+                                                    <p class="card-text"> Быстрое и надежное хранилище данных.
+                                                    Может хранить переменные любых типов, кроме сишных массивов.
+                                                    Данные хранятся в хэш таблицах и бинарных деревьях.
+                                                    Реализован доступ к множеству данных с помощью запросов.
+                                                    </p>
+
+                                                    <button type="button" class="btn btn-primary" onclick="location.href='https://github.com/mrognor/MVault'">
+                                                        <i class="bi bi-github"></i> Исходный код
+                                                    </button>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
                                 </div>
-                            </div>
-                            </div>
+                            </section>
                         </div>
 
                     </div>
@@ -277,38 +333,6 @@
         </div>
 
         <br>
-
-        <h1> Эту штуку можно встроить выше</h1>
-        <div class="card">
-            <div class="card-body">
-                <h2> <p class="text-center"> Моя история </p> </h2>
-                <section style="background-color: #212529;">
-                    <div class="container py-5">
-                        <div class="main-timeline">
-                            <div class="timeline left">
-                                <div class="card">
-                                    <div class="card-body p-4">
-                                        <h3> 2022 </h3>
-                                        <h4> EasyNetwork </h4>
-                                        В начале года мною была начата разработка сетевой библиотеки.
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="timeline right">
-                                <div class="card">
-                                    <div class="card-body p-4">
-                                        <h3>2023</h3>
-                                        <h4> MVault </h4>
-                                        В конце года мною была начата разработка библиотеки для хранения данных
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </section>
-            </div>
-        </div>
 
     </div>
 
