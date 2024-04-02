@@ -26,10 +26,10 @@
         <!-- Main info card -->
         <div class="card">
             <div class="card-body">
-                
                 <div class="row">
                     <div class="col">
                         <h1> Аммаев Тимур </h1>
+                        <h5> Junior C++ developer </h5> 
                     </div>  
 
                     <div class="col text-center">
@@ -44,13 +44,6 @@
 
                     </div>
                 </div>
-                
-                <div class="row">
-                    <div class="col">
-                        <h5> Junior C++ developer </h5> 
-                    </div>
-                </div>
-        
             </div>
         </div>
 
@@ -83,10 +76,9 @@
                         <b> Место работы: </b> ФГАНУ ЦИТиС</p>
                     </div>
                 </div>
-                
-                Мой основной язык программирования — это C++. Я люблю писать код и продумывать архитектуру, 
-                и вот уже на протяжении 3-х лет непрерывно в своё свободное время работаю над пет-проектами. 
-                Я хочу работать C++ программистом.
+
+                Мой основной язык программирования — это C++. На протяжении последних 2х лет я в свое свободное время делаю
+                пет-проекты на C++. До этого 2 года я работал на Unreal Engine 4.
 
             </div>
         </div>
@@ -96,23 +88,28 @@
         <!-- Skills section -->
         <div class="card">
             <div class="card-body">
-                <h2> <p class="text-center"> Мои наыки </p> </h2>
+                <h2> <p class="text-center"> Мои навыки </p> </h2>
 
                 <div class="d-flex align-items-start">
                     <div class="nav flex-column nav-pills me-3" id="v-pills-tab" role="tablist" aria-orientation="vertical">
 
                         <!-- C++ skills menu -->
-                        <button class="nav-link active" id="v-pills-home-tab" data-bs-toggle="pill" data-bs-target="#v-pills-home" type="button" role="tab" aria-controls="v-pills-home" aria-selected="true">
+                        <button class="nav-link active" id="v-pills-cpp-tab" data-bs-toggle="pill" data-bs-target="#v-pills-cpp" type="button" role="tab" aria-controls="v-pills-cpp" aria-selected="true">
                             C++
                         </button>
 
+                        <!-- Unreal Engine skills menu -->
+                        <button class="nav-link" id="v-pills-unreal-tab" data-bs-toggle="pill" data-bs-target="#v-pills-unreal" type="button" role="tab" aria-controls="v-pills-unreal" aria-selected="true">
+                            Unreal
+                        </button>
+
                         <!-- Python skills menu -->
-                        <button class="nav-link" id="v-pills-profile-tab" data-bs-toggle="pill" data-bs-target="#v-pills-profile" type="button" role="tab" aria-controls="v-pills-profile" aria-selected="false">
+                        <button class="nav-link" id="v-pills-python-tab" data-bs-toggle="pill" data-bs-target="#v-pills-python" type="button" role="tab" aria-controls="v-pills-python" aria-selected="false">
                             Python
                         </button>
 
                         <!-- Web skills menu -->
-                        <button class="nav-link" id="v-pills-messages-tab" data-bs-toggle="pill" data-bs-target="#v-pills-messages" type="button" role="tab" aria-controls="v-pills-messages" aria-selected="false">
+                        <button class="nav-link" id="v-pills-web-tab" data-bs-toggle="pill" data-bs-target="#v-pills-web" type="button" role="tab" aria-controls="v-pills-web" aria-selected="false">
                             Web
                         </button>
                     
@@ -121,7 +118,7 @@
                     <div class="tab-content" id="v-pills-tabContent">
                         
                         <!-- C++ skills text -->
-                        <div class="tab-pane fade show active" id="v-pills-home" role="tabpanel" aria-labelledby="v-pills-home-tab">
+                        <div class="tab-pane fade show active" id="v-pills-cpp" role="tabpanel" aria-labelledby="v-pills-cpp-tab">
                             Программирую на C++ уже 3 года. Начал изучать язык в университете. После окончания курса по языку
                             совершенствовал свои навыки самостоятельно, в основном с помощью своих проектов.  
                             
@@ -142,13 +139,28 @@
                             </ul>
                         </div>
 
+                        <!-- Unreal Engine skills text -->
+                        <div class="tab-pane fade" id="v-pills-unreal" role="tabpanel" aria-labelledby="v-pills-unreal-tab">
+                            Z
+                        </div>
+
                         <!-- Python skills text -->
-                        <div class="tab-pane fade" id="v-pills-profile" role="tabpanel" aria-labelledby="v-pills-profile-tab">
+                        <div class="tab-pane fade" id="v-pills-python" role="tabpanel" aria-labelledby="v-pills-python-tab">
                             Я начал изучать Python еще в школе. Знаю базу и ООП. Создавал мобильные приложения на Kivy
+                            
+                            <br>
+                            
+                            Навыки: 
+
+                            <ul>
+                                <li> OpenCV </li>
+                                <li> Kivy </li>
+                                <li> Flask </li>
+                            </ul>
                         </div>
 
                         <!-- Web skills text -->
-                        <div class="tab-pane fade" id="v-pills-messages" role="tabpanel" aria-labelledby="v-pills-messages-tab">
+                        <div class="tab-pane fade" id="v-pills-web" role="tabpanel" aria-labelledby="v-pills-web-tab">
                             На работе мне приходилось работать с вебом. Там я изучил Js на базовом уровне. Я научился верстать, в основном на Bootstrap.
                             Я делал бэкэнд на Node.js и на своем самодельном Http сервере. 
                         </div>
@@ -161,7 +173,6 @@
 
         <br>
 
-        <h1> Надо сказать что это далеко не полный список моего кода, а только самые важные </h1>
         <!-- Project section -->
         <div class="card">
             <div class="card-body">
@@ -182,14 +193,6 @@
                         <button class="nav-link" id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-ue"
                             type="button" role="tab" aria-controls="pills-profile" aria-selected="false">
                             Unreal Engine
-                        </button>
-                    </li>
-
-                    <!-- Publications pill -->
-                    <li class="nav-item" role="presentation">
-                        <button class="nav-link" id="pills-contact-tab" data-bs-toggle="pill" data-bs-target="#pills-pub"
-                            type="button" role="tab" aria-controls="pills-contact" aria-selected="false">
-                            Публикации
                         </button>
                     </li>
                 </ul>
@@ -216,25 +219,8 @@
                                                 </div>
                                             </div>
                                         </div>
-            
-                                        <div class="timeline right">
-                                            <div class="card">
-                                                <div class="card-body p-4">
-                                                    <h3>Весна 2023</h3>
-                                                    <h4> ReadWriteMutex </h4>
-                                                    <p class="card-text">
-                                                    Крайне важный проект, предоставляющий класс для умной блокировка потоков.
-                                                    Данный класс позволяет блокировать секции кода на чтение и на запись.
-                                                    Данный проект использовался во всех последующих проектах, в которых использовался многопоток.
-                                                    В последствии проект был обновлен и в него был добавлен рекурсивный ReadWriteMutex. </p>
-                                                    <button type="button" class="btn btn-primary" onclick="location.href='https://github.com/mrognor/ReadWriteMutex'">
-                                                        <i class="bi bi-github"></i> Исходный код
-                                                    </button>
-                                                </div>
-                                            </div>
-                                        </div>
 
-                                        <div class="timeline left">
+                                        <div class="timeline right">
                                             <div class="card">
                                                 <div class="card-body p-4">
                                                     <h3> Лето 2023</h3>
@@ -261,7 +247,7 @@
                                             </div>
                                         </div>
 
-                                        <div class="timeline right">
+                                        <div class="timeline left">
                                             <div class="card">
                                                 <div class="card-body p-4">
                                                     <h3> Зима 2023</h3>
